@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Radio Carnaval de Torres Vedras</title>
+
+
+<style>
+body {
+	margin:0;
+	padding:0;
+}
+</style>
+<!-- must have -->
+<link href="audio6_html5.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+<script src="js/audio6_html5.js" type="text/javascript"></script>
+<!-- must have -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156185846-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156185846-1');
+</script>
+<script>
+	jQuery(function() {
+		//setTimeout(function(){
+				jQuery("#lbg_audio6_html5_shoutcast_1").audio6_html5({
+					radio_stream:"https://radio.radiocarnavaldetorresvedras.com/radio/8000/radiohd.mp3/;",
+					/*radio_stream:"http://s10.voscast.com:9942/;",
+					radio_stream:"http://162.213.197.54:3012/;",
+					radio_stream:"http://208.77.21.33:12310/;",
+					radio_stream:"http://108.61.30.179:4000/;",
+					radio_stream:"http://46.252.154.133:8080/;",
+					radio_stream:"http://69.46.75.69:80/;",
+					radio_stream:"http://185.85.28.149:8000/;",
+					radio_stream:"http://74.208.71.58:8000/;",*/
+                    azuracast_api_nowplaying_url:'https://radio.radiocarnavaldetorresvedras.com/api/nowplaying/radiocarnavaldetorresvedras',
+					radio_name:"Radio Carnaval de Torres Vedras",
+					playerWidth:355,
+					imageHeight:355,
+					skin:"whiteControllers",
+					responsive:true,
+					grabLastFmPhoto:true,
+					autoPlay:true,
+					songTitleColor:"#ffffff",
+					authorTitleColor:"#ffffff",
+					lineSeparatorColor:"#636363",
+					radioStationColor:"#ffffff",
+					frameBehindTextColor:"#000000",
+					frameBehindButtonsColor:"#454545",
+					sticky:false,
+					startMinified:false,
+					showOnlyPlayButton:false,
+					centerPlayer:true,
+					playerBorderSize:0,
+					playerBorderColor:"#000000",
+					showFacebookBut:true,
+					facebookAppID:"482010002723168",
+					facebookShareTitle:"Radio Carnaval de Torres Vedras",
+					facebookShareDescription:"Uma radio online com musicas dos ultimos 30 anos do Carnaval de Torres Vedras, 24H por dia 365 dias por ano..",
+                    url_custom_metdata_file:"https://radio.radiocarnavaldetorresvedras.com/api/nowplaying",
+					metadata_file_type:4,
+					showTwitterBut:false,
+					showVolume:true,
+					showRadioStation:true,
+					showTitle:true,
+					showHistoryBut:true,
+					showHistory:true,
+					showHistoryOnInit:true,
+					translateReadingData:"a carregar...",
+					historyTranslate:"Faixas Tocadas Recentemente",
+					historyTitleColor:"#858585",
+					historyBgColor:"#ebebeb",
+					historyRecordBgColor:"transparent",
+					historyRecordBottomBorderColor:"transparent",
+					historyRecordSongColor:"#000000",
+					historyRecordSongBottomBorderColor:"#d0d0d0",
+					historyRecordAuthorColor:"#6d6d6d",
+					numberOfThumbsPerScreen:3,
+					historyPadding:16,
+					historyRecordTitleLimit:28,
+					historyRecordAuthorLimit:36,
+					nowPlayingInterval:35,
+					noImageAvailable:"logoweb6.png"
+				});
+		// }, 1000);
+	});
+</script>
+</head>
+
+<body bgcolor="#999999">
+
+             <div class="audio6_html5">
+             	<audio id="lbg_audio6_html5_shoutcast_1" preload="metadata">
+                No HTML5 audio playback capabilities for this browser. Use <a href="https://www.google.com/intl/en/chrome/browser/">Chrome Browser!</a>
+                </audio>
+             </div>
+             <br style="clear:both;">
+</body>
+</html>
