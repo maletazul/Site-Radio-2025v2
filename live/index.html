@@ -91,7 +91,7 @@ body {
 					historyRecordTitleLimit:28,
 					historyRecordAuthorLimit:36,
 					nowPlayingInterval:35,
-					noImageAvailable:"logoweb6.png"
+					noImageAvailable:"logoweb7.png"
 				});
 		// }, 1000);
 	});
